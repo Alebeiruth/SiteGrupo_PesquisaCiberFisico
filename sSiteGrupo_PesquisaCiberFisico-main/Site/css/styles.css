@@ -1,0 +1,249 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para diferentes tamanhos de tela */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+    .menu.active {
+        display: block;
+    }
+}
+
+h2, .h2 {
+    font-size: 34px;
+}
+
+/* Mais estilos... */
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.collaboration{
+    padding-left: 20px; /* Adicione o afastamento lateral esquerdo desejado */
+    padding-right: 20px;
+
+}
+
+
+/* MORO*/
+.main{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+
+.profs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+  }
+
+.prof{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 240, 240);
+    width: 600px;
+    height: 300px;
+}
+
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px 20px;
+    
+}
+
+.logo {
+    font-size: 12px;
+    padding: 10px 100px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilo para a barra inferior */
+footer {
+    background-color: #666;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    
+}
+
+.footer-container {
+    margin-right:100px;
+    margin-left: 100px;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+
+.address {
+    flex: 1;
+    /* Estilo para a coluna de informações de endereço */
+}
+
+.research-center {
+    flex: 1;
+    /* Estilo para a coluna de títulos do centro de pesquisa */
+}
+
+/* Estilo para o conteúdo da página */
+.content {
+    display: flex; /* Adicione flexbox ao conteúdo */
+    justify-content: space-between; /* Distribuir espaço entre as duas colunas */
+    padding: 20px;
+    margin-left: 100px;
+    margin-right:100px;
+}
+
+.box-content {/* Estilo para o conteúdo da página publication */
+    display: flex; /* Altere de grid para flex */
+    justify-content: space-between; /* Distribuir espaço entre as duas colunas */
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.section1 {
+    grid-area: section1;
+}
+
+.section2 {
+    grid-area: section2;
+}
+
+.section3 {
+    grid-area: section3;
+}
+
+.separator {
+    border-top: 1px solid #000; /* Linha divisória sólida */
+    padding: 10px 0;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.data {
+    background-color: transparent; /* Fundo transparente */
+    padding: 0 1285px; /* Espaçamento interno */
+    display: solid; /* Para que ocupe toda a largura disponível */
+    height: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.graus {
+    font-size: 15px; /* Tamanho do símbolo de graus */
+    line-height: 1; /* Altura da linha para centralizar verticalmente */
+    vertical-align:text-bottom;
+    
+}
+
+
+.staff{
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #333;
+    font-size: 34px;
+    margin-top: 22px;
+    margin-bottom: 11px;
+    box-sizing: border-box;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+.box-column {
+    flex: 1; /* Dividir o espaço igualmente entre as colunas */
+    display: flex; /* Alinhar elementos horizontalmente */
+    flex-direction: column; /* Alinhar elementos verticalmente */
+    gap: 20px;
+}
+
+.left-box {
+    border: 1px solid #e7e7e7;
+    -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.right-box {
+    border: 1px solid #e7e7e7;
+    -webkit-box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    flex: 1;
+}
+
+.imagem-responsiva {
+    max-width: 50%; /* Define a largura máxima da imagem (ajustável) */
+    height: auto;
+    float: left; /* Faz a imagem flutuar à esquerda do conteúdo de texto */
+    margin-right: 20px; /* Adiciona um espaço à direita da imagem para separá-la do texto */
+}
+
+
+/* Estilo para a coluna de texto */
+.text-column {
+    flex: 1;
+
+}
+
+/* Estilo para a coluna do logotipo */
+.logo-column {
+    flex: 1;
+    text-align: center;
+    margin-left: 100px;
+    margin-right:100px;
+}
